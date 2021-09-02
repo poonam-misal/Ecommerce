@@ -1,0 +1,259 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+overflow-x:hidden;
+}
+
+button{
+    background-color: black;
+    color: white;
+}
+hr{
+    width: 30px;
+    height: 2px;
+    background-color: rgb(210, 81, 30);
+    text-align: center;
+    justify-content: center;
+
+}
+.star i{
+    font-size: 00.8rem;
+    color: gold;
+
+}
+/*heder*/
+.heder1{                                        /*custum css*/
+    box-shadow: 0 20px 30px #222020;
+    position: sticky;
+    top: 0px;
+
+
+}
+.logo{
+    height: 50px;
+
+}
+.container1{
+    border: none;
+    display: inline;
+
+}
+.topnav{
+    float: left;
+}
+.topnav-right{
+    float: right;
+}
+.link{
+    text-decoration: none;
+    border: none;
+    border-radius: 30px;
+    color: white;
+
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: right;
+    display:inline-block ;
+    align-items: flex-end;
+    
+}
+
+.link1 a:hover{
+    background-color: coral;
+    
+}
+.icon:hover{
+    color: coral;
+}
+
+
+/*header*/
+/*section1*/
+h5{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(243, 16, 148);
+}
+h1{
+    font-family: fantasy;
+    color: lightcoral;
+
+    animation: duration 2s in ;     
+    animation: delay 0.9em;
+}
+h4{
+    font-family: cursive;
+    color: indigo;
+}
+.button1{
+    font-size: 1rem;
+    font-weight: 700;
+     border: none;
+    border-radius: 150px;
+    outline: none;
+}
+.button1:hover{
+    color:rgb(235, 109, 19);
+}
+.image1{
+    height: 400px;
+   width: 500px;
+}
+/*section1*/
+/*section2*/
+.brand_img{
+    background-image: url('images/brand\ backgraoung.jpg');
+    height: 120px !important;
+    border: 1px solid gray;
+    border-radius: 40px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    /* left: 20%; */
+
+}
+/*section*/
+/*section3*/
+ .details button{
+     display: inline-block;
+     font-size: 14px;
+     font-weight: 500;
+     background: none;
+     text-transform: uppercase;
+     border-bottom: 1px solid;
+     padding: 2.5px;
+     transform: tranaslateY();
+     transition: 0.3sec;
+     color: black;
+ }
+
+ .img1{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+ .details{
+     text-align: start;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     color: black;
+     border-left: #efefef;
+     border-radius: 8px;
+     background-color: #efefef;
+    
+ }
+ /*.img_wrap:hover{
+     cursor: pointer;
+     background-color: darksalmon;*/
+ 
+ .details:hover{
+     background-color: darksalmon;
+ }
+ /*section4*/
+
+.products:hover img{
+    opacity: 0.7;
+}
+.products-wrap:hover{
+    box-shadow: 0 30px 30px 0 rgba(0,0,0,.11);
+    
+}
+.products-wrap:hover 
+.buy_now{
+    display: block;
+
+    }
+.buy_now{
+display: none;
+}
+ /*  when i do products hover then display the btn.*/
+ /* .products:hover.buy_button{                       
+     transform: translateY();
+    opacity: 1;
+    visibility: visible;
+}
+.products{
+    cursor: pointer;
+    margin-bottom: 2rem;
+    transition: 0.3sec all;
+    box-shadow: 0 0 30px black;;
+}
+
+
+}
+.buy_button{
+   background-color: chocolate;
+   transform: translateY(20px);
+   opacity: 0;
+   transition: 0.3sec all;
+   visibility: visible;
+
+
+}*/
+
+
+/*section4*/
+/*section5*/
+.banner_img{
+    background-image: url('images/ms-womenswear-aw20_p.jpg');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: top 100px center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+/*footer*/
+ h6{
+    color: white;
+    font-weight: 700;
+    font-size: 1.2rem;
+
+}
+li a{
+    padding-bottom: 4px;
+    color: white;
+}
+li a:hover {
+    color: red;
+}
+p{
+    color: whitesmoke;
+    font-size: 00.8rem;
+}
+h5{
+    color: black;
+}
+.copyright a{
+    color: black;
+    width: 40px;
+    height: 40px;
+    background-color: blanchedalmond;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    transition: 0.3s;
+    margin: 0 5px;
+}
+.copyright a:hover{
+    color: red;
+}
+
+
+
